@@ -7,4 +7,4 @@ spec:
   host: magical-williams-9674.edgestack.me
   prefix: /guestbook
   rewrite: /
-  service: guestbook:100
+  service: guestbook-ui:100
