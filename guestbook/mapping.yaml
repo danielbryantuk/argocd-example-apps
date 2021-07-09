@@ -1,0 +1,10 @@
+apiVersion: getambassador.io/v2
+kind: Mapping
+metadata:
+  name: guestbook
+  namespace: default
+spec:
+  host: magical-williams-9674.edgestack.me
+  prefix: /guestbook
+  rewrite: /
+  service: guestbook:100
