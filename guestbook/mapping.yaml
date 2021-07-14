@@ -1,9 +1,0 @@
-apiVersion: getambassador.io/v2
-kind: Mapping
-metadata:
-  name: guestbook
-  namespace: default
-spec:
-  prefix: /guestbook
-  rewrite: /
-  service: guestbook-ui:100
